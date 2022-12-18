@@ -33,7 +33,7 @@ String qpass = "password";
           Serial.println(qpass[i]);
         }
 ```
-###### Commit all the change of the EEPROM
+###### Commit all the change of the memory
 ```cpp
 EEPROM.commit();
 ```
